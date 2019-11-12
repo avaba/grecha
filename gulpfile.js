@@ -49,6 +49,7 @@ gulp.task('scripts', function() {
 		'app/libs/noUiSlider/nouislider.min.js',
 		'app/libs/noUiSlider/wNumb.min.js',
 		'app/libs/mask/mask.js',
+		'app/libs/matchMedia/matchMedia.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))
